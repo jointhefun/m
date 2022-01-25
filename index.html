@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:title" content="Mieunica">
+<meta property="og:description" content="ma cheama mieunica si sug pula gratis, oricand, oriunde">
+<meta property="og:image" content="https://mieunica.sugepula.xyz/mieunica.png">
+<meta property="og:url" content="https://mieunica.sugepula.xyz/">
+<title>Mieunica</title>
+<style>
+@import "https://fonts.googleapis.com/css2?family=Open+Sans&display=swap";
+a:link {
+color: inherit;
+}
+a:visited {
+color: inherit;
+}
+a:hover {
+color: inherit;
+}
+a:active {
+color: inherit;
+}
+body {
+background-color: #000;
+color: #f0f;
+font-family: open sans, sans-serif;
+font-size: 23px;
+padding-left: 20px;
+}
+</style>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script>
+axios.get('https://api.rmly.dev/avatar/449564520558624768?size=128')
+.then(function (response) {
+document.getElementById('avatar').innerHTML = `<img src="${response.data.url}">`
+document.getElementById('discordname').innerHTML = `${response.data.tag}`
+})
+</script>
+</head>
+<body>
+<h1>Salut!</h1>
+<p>Ma cheama Mieunica si acesta este website-ul meu personal. Imi place sa sug pula foarte agresiv si sa iau la muie cat se poate de mult de la toata lumea. Sunt foarte deschisa, imi place sa stau capra si sa dansez pe bara ca asa mai fac un ban si eu sa mananc ceva ca am doar sobolani in stomac.</p>
+<p>Daca doriti sa va sug pula in mod agresiv va astept pe Discord: <b><span id="discordname"></span></b></p>
+<p>Daca vreti sa va futeti cu router-u meu vi-l dau: <span style="color:#ff0">86.120.125.57 IP</span></p>
+<p>Ce poza de sugatoare am pe Discord (se updateaza automat!):</p>
+<div id="avatar"></div> 
+<p>Cat de urata sunt in realitate (nu raspund de provocarea unor boli)</p>
+<details>Aici i-a cazut pula lui <a style="color:#f00" href="https://rmly.dev/">Rmly</a> in Ocean si i-o Pescuiam Eu ca sa o Mananc cu Pofta. Mi-e frica sa-mi intorc capul ca ma baga astia la puscarie pentru Raspandirea Boliilor. <p></p><img src="https://mieunica.sugepula.xyz/mieunicalapescuitdemuie.png" width="300px" height="300px">
+<summary style="color:#0ff"><span style="color:#ff0">Click aici pentru a lua Cancer</span></summary></details>
+<p><a style="color:#f8c" href="https://caen.sugepula.xyz/">Caen, partenerul meu, are si el website!</a></p>
+</body>
+</html>
